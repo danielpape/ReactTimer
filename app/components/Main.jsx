@@ -1,18 +1,18 @@
 var React = require('react');
-var Navigation = require('Navigation');
+var Nav = require('Nav');
 
 var Main = (props) => {
-  return (
+  return(
     <div>
       <div>
         <div>
-          <Navigation/>
-          <p>Main.jsx Rendered</p>
+          <Nav/>
+          <p>Main.jsx rendered</p>
           {props.children}
         </div>
       </div>
     </div>
   );
-}
+};
 
 module.exports = Main;
